@@ -1,0 +1,101 @@
+@font-face {
+    font-family: myfont;
+    src: url(../font/fa-brands-400.woff2);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ,sans-serif;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #c59d5f;
+    ;
+    border: none;
+    color: white;cursor: pointer;
+}
+.btnn{
+    padding: 10px 20px;
+    background-color: #c59d5f;
+    ;
+    border: none;
+    color: white;
+    width: 20%;cursor: pointer;
+
+}
+.btnnn {
+    padding: 10px 20px;
+    background-color: #c59d5f;
+    ;
+    justify-content: left;
+    align-items: start;
+    border: none !important;
+    color: white;cursor: pointer;
+  
+}
+.btn-delivery{
+    border: none;
+    display: flex;
+   padding: 10px 20px;
+   justify-content:left;
+   /* width: 75%; */
+   cursor: pointer;
+}
+.whi
+
+.align {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.white {
+    color: white;
+}
+
+.gold {
+    color: #c59d5f;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+
+.icon-input {
+    position: relative;
+   
+}
+
+.icon-input input {
+    /* padding-left: 10px;  */
+    height: 40px; 
+    border: none;
+    background-color:antiquewhite;
+    border-radius: 4px;
+    outline: none;
+    
+    width: 80%;
+    
+}
+
+.icon-input .ion-icon {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; 
+    /* visibility: visible; */
+}
+

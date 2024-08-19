@@ -1,0 +1,307 @@
+@media (min-width: 768px) and (max-width: 1440px) {}
+
+@media (min-width: 320px) and (max-width: 530px) {
+    body {}
+
+    .none {
+        display: none;
+    }
+
+    .nav {
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart {}
+
+    .cart-img-1,
+    .cart-img-2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    header {
+        background-color: beige;
+
+        height: 600px;
+    }
+
+    .header {
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+        line-height: 1;
+
+        text-align: center;
+
+    }
+
+    .header-text h2 {
+        color: gold;
+        font-style: italic;
+        font-size: 1.8rem;
+    }
+
+    .heaheader-textder h1 {
+        font-size: 2.9rem;
+    }
+
+    .header-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .food {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .two-burger {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .burger img{
+        height: 250px;
+    }
+    .section-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .side-1 {
+        margin-bottom: 250px;
+        align-items: center;
+
+
+    }
+
+    .img-1 {
+        position: absolute;
+        top: -10%;
+        width: 40%;
+        left: 8%;
+
+    }
+
+    .img-2 {
+        position: absolute;
+        top: -10%;
+        width: 60%;
+        left: 35%;
+    }
+
+    .featured {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .best {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .best-111,
+    .best-11 {
+        display: block;
+
+    }
+
+    .book {
+        margin-top: 20px;
+    }
+    .section-2 {
+
+        width: 100%;
+        margin: 0px auto;
+        background-color: black;
+    }
+    .best-2 {
+
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;text-align: center;
+       
+    
+    
+    }
+    .best-222 {
+       display: flex;flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    
+    }
+    .breakfast {
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+    .tasties{
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    .tasty-text{
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        line-height: .2;
+        
+    }
+    .tasty-img img{
+
+        width: 100%;
+        
+        }
+        .tasty-text h3{
+            font-size: 1.6rem;
+        }
+        .tasty-text h3{
+            font-size: 1.6rem;
+        }
+        .tasty-text h1{
+            font-size: 2.6rem;
+        }
+        .btnn{
+            padding: 20px 30px;
+            background-color: #c59d5f;
+            ;
+            border: none;
+            color: white;
+            width: 30% !important;
+        
+        }
+        /* POPULAR */
+
+
+        .Popular {
+            text-align: center;
+            width: 100%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            line-height: 1;
+        
+        }
+        .Popular h1 {
+            font-size: 1.1rem;
+        }
+        .bot {
+            display: grid;
+            grid-template-columns: 1FR 1FR;
+            gap: 20px;
+            margin-bottom: 29px;
+        }
+        /* POPULAR */
+    .order-1{
+        order: 2;
+    }
+    .order-2{
+        order: 1;
+    }
+    /* DELIVERY */
+
+
+
+    .all-delivery{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .keke img{
+        width: 100%;
+    }
+    /* Delivery */
+
+    /* Three french */
+
+    .three-french {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+        justify-content: center !important;
+        margin: 0px;
+        width: 90%;
+        gap: 30px;
+        /* background-color: red; */
+        position: absolute;
+        top: -10%;
+        left: 0%;
+        right: 0;
+        
+        
+    }
+
+    
+    .french img {
+        width: 100%;
+        height: 200px;
+    
+    }
+    .brands{
+        background-color: antiquewhite;
+        /* height: 200px; */
+        position: relative;
+        height: 1000px;
+        
+    }
+    .brand {
+        padding: 150px 0px 30px 0px;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        /* gap: 20px; */
+    
+    }
+    /* THREE FRENCH */
+    .bg-4 {
+       
+        padding-bottom: 0;
+    }
+    .cover {
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 30px;
+        margin-bottom: 170px;
+    }
+    
+    .brand{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /* three french */
+    .reg {
+        /* background-color: red; */
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
